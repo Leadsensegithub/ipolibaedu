@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Verification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 90%;
+        }
+        .otp-input {
+            padding: 10px;
+            margin: 5px;
+            width: 40px;
+            font-size: 20px;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        @media (max-width: 600px) {
+            .otp-input {
+                width: 30px;
+                font-size: 18px;
+                padding: 8px;
+            }
+            input[type="submit"] {
+                padding: 10px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>OTP Verification</h2>
+        <p>Your OTP has been sent to your email ID. Please enter it below:</p>
+        <form action="verify_otp.php" method="POST">
+            <input class="otp-input" type="text" name="digit1" maxlength="1" required>
+            <input class="otp-input" type="text" name="digit2" maxlength="1" required>
+            <input class="otp-input" type="text" name="digit3" maxlength="1" required>
+            <input class="otp-input" type="text" name="digit4" maxlength="1" required>
+            <input class="otp-input" type="text" name="digit5" maxlength="1" required><br/>
+            <input type="submit" value="Verify OTP">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+    background-color: #FFFFFF;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.content .con {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.content .con button {
+    background-color: #57C89B;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 50%;
+    border-radius: 5px;
+}

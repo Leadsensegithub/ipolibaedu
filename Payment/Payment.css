@@ -1,0 +1,66 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #FFF4F6;
+}
+
+.content {
+    background-image: url("../assets/landing.svg");
+    height: 600px;
+    background-repeat: no-repeat;
+    max-width: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.content .container {
+    width: 40%;
+    text-align: center;
+    background-color: white;
+    margin-top: 10%;
+    box-shadow: 0px 1px 21.6px 0px #0000001A;
+    border-radius: 10px;
+
+
+}
+
+.content .container .Registration {
+    width: 50%;
+    height: 40px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+
+}
+
+
+.content .container .active {
+    background-color: #ce2039;
+    color: white;
+
+}
+
+.content .container .Course {
+    width: 50%;
+    height: 40px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.content .container .paynow {
+    margin-top: 50px !important;
+    text-align: center;
+}
+
+.content .container .paynow button {
+    background-color: #ce2039;
+    color: white;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    width: 30%;
+}

@@ -1,0 +1,28 @@
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.content .con {
+    width: 40%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content .con .close {
+    background-color: red;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.content .con .tryagain {
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    height: 40px;
+    width: 40%;
+    border-radius: 5px;
+}
